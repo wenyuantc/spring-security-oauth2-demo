@@ -10,7 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @description:
+ * @description: 安全配置
  * @author: Nox
  * @date: 2019/8/15
  */
