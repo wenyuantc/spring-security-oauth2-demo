@@ -1,6 +1,5 @@
 package com.noxjs.oauth2.server.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -56,4 +55,8 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 	public TokenStore tokenStore() {
 		return new JdbcTokenStore(dataSource);
 	}
+
+
+
+
 }
